@@ -1,0 +1,84 @@
+body
+{
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    background-color:white;
+    height: 60px;
+    box-shadow: 0 10px 15px rgba(0,0,0,1);
+}
+.menu
+{
+    height: 60px;
+
+}
+.nav .menu ul li
+{
+    padding: 16px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+.menu ul li a:hover
+{
+    color:brown;
+}
+.menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+.menu ul li:hover > ul
+{
+    display: block;
+}
+.menu ul ul li
+{
+    display:list-item;
+    position: relative;
+    display: none;
+}
+
+div img
+{
+    float: right;
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+}
+
+div h1
+{
+    
+    font-weight: bolder;
+    text-align: left;
+    font-size: 80px;
+    padding-left: 80px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p
+{
+    padding-left: 80px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn
+{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
